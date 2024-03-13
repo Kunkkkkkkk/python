@@ -1,3 +1,19 @@
+"""
+内容：
+标识符
+python保留字
+注释
+行与缩进
+多行语句
+数字(Number)类型
+字符串(String)
+空行
+输入
+同一行显示多条语句
+print
+import
+
+"""
 import keyword
 
 var = keyword.kwlist
@@ -31,7 +47,7 @@ print(name1)
 number111 = "21.231"
 print(int(float(number111)))
 
-# complex 复数 例如1+2j
+# complex 复数 例如1+2j，可以用 a + bj，或者 complex(a,b) 表示， 复数的实部 a 和虚部 b 都是「浮点型」。
 
 
 # String类型
@@ -70,7 +86,7 @@ print(input123)
 
 # print的使用，默认换行输出，如要不换行输出则在末尾加上end= ""
 print("这是第一行", end=',')
-print("这不是第二行",end=' ')
+print("这不是第二行", end=' ')
 
 # 关于import和form..import..
 # import是导入整个模块，而form..i 可以是从一个模块里导入一部分东西
