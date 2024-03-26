@@ -118,3 +118,29 @@ print(a - b)  # a 和 b 的差集
 print(a | b)  # a 和 b 的并集
 print(a & b)  # a 和 b 的交集
 print(a ^ b)  # a 和 b 中不同时存在的元素 交叉部分
+
+
+#
+# 字典Dictionary 花括号 以key - value方式保存
+#
+dict1 = {}   #创建空字典而不是集合
+dict1["language"] = "Python"
+print(dict1)
+dict1["language2"] = "C++"
+print(dict1)
+# 构造函数dict()
+dict2 = dict([('language', 'Python'), ('language2', 'java')])
+dict3 = dict(language = 'Python', language2= 'PHP')  # key 不要引号直接用就行
+print(dict2)
+print(dict3)
+
+#
+# bytes 类型  表示的是不可变的二进制序列
+#
+
+"""创建 byte类型对象的方法：
+1.使用b前缀
+2.使用byte()函数，第一个参数是要
+"""
+byte1 = b"hello"
+print(byte1)
